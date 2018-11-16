@@ -21,11 +21,29 @@
 			</div>
 		</header>
 
-		<div>
-			<section>
-
+		<div id="main-container" class="container">
+			<section class="main-section">
+				<h1>Contact</h1>
+				<form>
+					<ul>
+						<li>
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input type="email" id="email" email="email" placeholder="example@example.com" required="required">
+						</li>
+						<li>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" required="required"></textarea>
+						</li>
+					</ul>
+					<input type="submit">
+				</form>
+				
 			</section>
-			
+
 			<section class="sidebar">
 				<div id="connect">
 					<h2>Connect with Me.</h2>
