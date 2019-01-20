@@ -42,3 +42,21 @@ nav a:hover {
 	cursor: pointer;
 	opacity: 0.8;
 }
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin-bottom: 20px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
